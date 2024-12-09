@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Start!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="firstPage">
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+    </div>
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox center-content">
+        <img
+          src="images/characterfinal.png"
+          class="clickable img"
+          id="myImage"
+        />
+      </div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+    </div>
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+    </div>
+    <div class="startrow">
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+      <div class="startbox"></div>
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="mrow center-content">
+        <img
+          src="images/text1.png"
+          class="clickable ctext"
+          id="t1"
+          onclick="changetext1()"
+        />
+        <img
+          src="images/text2.png"
+          class="clickable ctext hidden"
+          id="t2"
+          onclick="changetext2()"
+        />
+        <img
+        src="images/text3.png"
+        class="clickable ctext hidden"
+        id="t3"
+        onclick="changetext3()"
+      />
+      <img
+      src="images/text4.png"
+      class="clickable ctext hidden"
+      id="t4"
+      onclick="changetext4()"
+    />
+        <img
+          src="images/text5.png"
+          class="clickable ctext hidden"
+          id="t5"
+          onclick="nextroom()"
+        />
+      </div>
+      <div class="mrow center-content">
+        <img src="images/characterfinal.png" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="preload.js"></script>
+  </body>
+</html>

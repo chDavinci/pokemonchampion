@@ -1,0 +1,15 @@
+{
+  "name": "Elite 4",
+  "version": "1.0.0",
+  "description": "4th member",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": ["html", "css"],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}
