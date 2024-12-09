@@ -157,5 +157,5 @@ function greatball() {
 }
 
 function nextgame() {
-  window.location.href = "https://lqqx2h.csb.app/";
+  window.location.href = "https://mtranb.github.io/fightingEliteFourLevel/";
 }
